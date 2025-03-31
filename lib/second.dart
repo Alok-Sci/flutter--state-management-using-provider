@@ -10,8 +10,6 @@ class Second extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print('rebuild second');
-
     return Consumer<NumberListProvider>(
         builder: (context, numberListProvider, child) {
       return Scaffold(

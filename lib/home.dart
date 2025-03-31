@@ -10,8 +10,6 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print('rebuild home');
-
     return Consumer<NumberListProvider>(
       builder: (context, numberListProvider, child) {
         return Scaffold(
